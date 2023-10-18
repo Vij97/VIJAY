@@ -1,0 +1,7 @@
+step1:sudo apt-get update
+
+step2: sudo apt-get install apt-transport-https ca-certificates wget
+
+step 3:
+sudo wget -O /etc/apt/sources.list.d/openproject.list \
+  https://dl.packager.io/srv/opf/openproject/stable/12/installer/ubuntu/22.04.repo
